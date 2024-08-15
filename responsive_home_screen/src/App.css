@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.round-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3b3435;
+    margin-left: 40px;
+    text-align: center;
+}
+.logo {
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav input[type="search"] {
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.menu-icon {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.top{
+    display: flex;
+justify-content: center;
+align-items: center;
+    width: 80px;
+    height: 40px;
+    margin-left: 40px;
+    color: white;
+    background-color: rgb(111, 172, 192);
+    border-radius: 20px;
+}
+
+.top-label {
+    padding-top: 20px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+}
+
+.main-heading {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.main-heading h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-heading p {
+    font-size: 16px;
+    color: #777;
+}
+
+.ratings {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+.rating-details{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 40px;
+}
+.pilot{
+    text-align: start;
+    padding-left: 30px;
+}
+.rating-details strong {
+    font-size: 18px;
+    
+}
+
+.rating-details span {
+    color: #777;
+}
+
+.interactive-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.video-placeholder {
+    width: 75%;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.video-placeholder button {
+    background: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.stats {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.stat {
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.stat:last-child {
+    background-color: #c6c9cc;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:white;
+}
+
+.signup-btn, .explore-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.explore-btn {
+    background-color: rgb(2, 2, 2);
+    border: 2px solid #e2e6eb;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .interactive-content {
+        display: flex;
+        text-align: center;
+        padding-left: 8%;
+    }
+
+    .video-placeholder {
+        margin-right: 0;
+        width: 80%;
+    
+    }
+.actions {
+    
+        display: flex;
+        flex-direction: column;
+       place-items: center ;
+
+    }
+    .explore-btn{
+        margin-top: 20px;
+    }
+    .video-placeholder button {
+        margin-top: 30px;
+    }
+}
+
+
+    

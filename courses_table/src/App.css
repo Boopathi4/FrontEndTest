@@ -1,0 +1,48 @@
+.container {
+font-family:sans-serif;
+  width: 100%;
+  font-size: 20px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Mycourse {
+  padding-left: 20px;
+}
+.view_all {
+  padding-right: 20px;
+}
+.grid_container {
+  display: grid;
+  grid-template-columns: 35% auto auto auto;
+  row-gap: 40px;
+  background-color: white;
+}
+.grid_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.Mycourse,
+.view_all {
+  color: blue;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  width: 50px;
+}
+h3 {
+  padding-left: 10px;
+}
+span {
+  padding-bottom: 10px;
+}
